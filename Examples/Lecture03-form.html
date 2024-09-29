@@ -1,64 +1,75 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Test page</title>
-	</head>
-	<body>
-		<form>
-			text field <textarea rows="3" cols="7"></textarea><br/><br/>
+<html lang="en">
 
-			input, text line <input type="text"><br/><br/> <!-- size maxlength -->
+<head>
+    <title>Test page</title>
+</head>
 
-			input, submit <input type="submit" value="Click to Submit"><br/><br/>
+<body>
+    <form>
+        text field <textarea rows="3" cols="7"></textarea><br><br>
 
-			input, reset <input type="reset" value="Clear all"><br/><br/>
+        input, text line <input type="text"><br><br>
+        <!-- size maxlength -->
 
-			input, password <input type="password"><br/><br/>
+        input, submit
+        <input type="submit" value="Click to Submit"><br><br>
 
-			input, checkbox list <input type="checkbox">Toyota
-  				<input type="checkbox">Ford
-  				<input type="checkbox">Mitsubishi
-				<input type="checkbox">Chevrolet<br/><br/>
+        input, reset <input type="reset" value="Clear all"><br><br>
 
-			input, radio list <input type="radio" name="car">Toyota  <!-- same name -->
-  				<input type="radio" name="car">Ford  <!-- label -->
-  				<input type="radio" name="car">Mitsubishi
-				<input type="radio" name="car">Chevrolet<br/><br/>
+        input, password <input type="password"><br><br>
 
-			input, datalist <input list="browsers">
-				<datalist id="browsers">
-  					<option value="Toyota">
-  					<option value="Mitsubishi">
-  					<option value="Ford">
-  					<option value="Chevrolet">
-				</datalist><br/><br/>
+        input, checkbox list <input type="checkbox">Toyota
+        <input type="checkbox">Ford <input type="checkbox">Mitsubishi
+        <input type="checkbox">Chevrolet<br><br>
 
-			general button <button type="button">Click me</button><br/><br/>
+        input, radio list <input type="radio" name="car">Toyota
+        <!-- same name -->
+        <input type="radio" name="car">Ford
+        <!-- label -->
+        <input type="radio" name="car">Mitsubishi
+        <input type="radio" name="car">Chevrolet<br><br>
 
-			select <select name="cars" size=1> <!-- multiple -->
-  				<option value="toyota">Toyota</option>
-  				<option value="ford">Ford</option>
-  				<option value="mitsu">Mitsubishi</option>
-				<option value="chevy">Chevrolet</option>
-			</select><br/><br/>
+        input, datalist <input list="browsers">
+        <datalist id="browsers">
+            <option value="Toyota"></option>
+            <option value="Mitsubishi"></option>
+            <option value="Ford"></option>
+            <option value="Chevrolet"></option>
+        </datalist><br><br>
 
-			select, option groups <select name="more cars">
-  				<optgroup label="Japanese Cars">
-    					<option value="toyota">Toyota</option>
-    					<option value="mitsu">Mitsubishi</option>
-  				</optgroup>
-  				<optgroup label="American Cars">
-    					<option value="ford">Ford</option>
-    					<option value="chevy">Chevrolet</option>
-  				</optgroup>
-			</select><br/><br/>
+        general button <button type="button">Click me</button><br><br>
 
-			fieldset <fieldset style="width: 300px; height: 100px;">  <!-- style="width: 300px; height: 100px;" -->
-    				<legend>Personal info:</legend>
-    				Name: <input type="text"><br>
-    				Email: <input type="text"><br>
-    				Date of birth: <input type="text">
-  			</fieldset>		
-		</form>
-	</body>
+        select
+        <select name="cars" size="1">
+            <!-- multiple -->
+            <option value="toyota">Toyota</option>
+            <option value="ford">Ford</option>
+            <option value="mitsu">Mitsubishi</option>
+            <option value="chevy">Chevrolet</option>
+        </select><br><br>
+
+        select, option groups
+        <select name="more cars">
+            <optgroup label="Japanese Cars">
+                <option value="toyota">Toyota</option>
+                <option value="mitsu">Mitsubishi</option>
+            </optgroup>
+            <optgroup label="American Cars">
+                <option value="ford">Ford</option>
+                <option value="chevy">Chevrolet</option>
+            </optgroup>
+        </select><br><br>
+
+        fieldset
+        <fieldset style="width: 300px; height: 100px">
+            <!-- style="width: 300px; height: 100px;" -->
+            <legend>Personal info:</legend>
+            Name: <input type="text"><br>
+            Email: <input type="text"><br>
+            Date of birth: <input type="text">
+        </fieldset>
+    </form>
+</body>
+
 </html>
